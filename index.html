@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculalor</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+</head>
+<body>
+    <div class="container1">
+        <div class="calc ">
+            <div class="row">
+                <div class="col-md-12 input-result position-relative">
+                    <input id="input" type="text" class="fw-bolder" placeholder="0">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 op text-center"><button onclick="ClearAll()">C</button></div>
+                <div class="col-md-3  op " ><button onclick="DeleletElement()">Del</button></div>
+                <div class="col-md-3  op " ><button onclick="Display(' / ')">/</button></div>
+                <div class="col-md-3  op " ><button onclick="Display(' * ')">X</button></div>
+            </div>
+            <div class="row">
+                <div class="col-md-3  num "><button onclick="Display('7')">7</button></div>
+                <div class="col-md-3  num"><button onclick="Display('8')">8</button></div>
+                <div class="col-md-3  num"><button onclick="Display('9')">9</button></div>
+                <div class="col-md-3  op "><button onclick="Display(' - ')">-</button></div>
+            </div>
+            <div class="row">
+                <div class="col-md-3  num "><button onclick="Display('4')">4</button></div>
+                <div class="col-md-3  num "><button onclick="Display('5')">5</button></div>
+                <div class="col-md-3  num "><button onclick="Display('6')">6</button></div>
+                <div class="col-md-3  op" ><button onclick="Display(' + ')">+</button></div>
+            </div>
+            <div class="row ">
+                <div class="col-md-9 ">
+                    <div class="row ">
+                        <div class="col-md-4   num"><button onclick="Display('1')">1</button></div>
+                        <div class="col-md-4   num"><button onclick="Display('2')">2</button></div>
+                        <div class="col-md-4   num"><button onclick="Display('3')">3</button></div>
+                    </div>
+                    <div class="row ">
+                        <div class="col-md-9  num" style="width: 200px !important;"><button onclick="Display('0')">0</button></div>
+                        <div class="col-md-3  num"><button onclick="Display('.')">.</button></div>
+                    </div>
+                </div>
+                <div class="col-md-3 op-equal ">
+                    <div>
+                        <button onclick="Equal()">=</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./assets/js/main.js" ></script>
+</body>
+</html>

@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #252525 !important;
+}
+.calc{
+    
+    height: 450px !important;
+}
+.calc .input-result{
+    width: 400px;
+    height: 75px;
+    background-color: rgb(150, 13, 241);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.calc   .input-result input{
+    width: 380px;
+    height: 50px;
+    outline: none !important;
+    padding: 20px;
+}
+.num{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px !important;
+    height: 50px;
+    background-color: rgb(97, 97, 155);
+    color: white;
+    border : 2px solid rgb(100, 76, 76);
+    
+}
+.num:hover{
+    background: rgb(131, 131, 243);
+    color: black;
+}
+.op{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px !important;
+    height: 50px;
+    background-color: rgb(10, 133, 235);
+    color: white;
+    border : 2px solid rgb(97, 97, 155);
+}
+.op:hover{
+    background: rgb(120, 99, 236);
+}
+.op-equal{
+    background-color: rgb(243, 104, 5);
+    width: 100px !important;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.op-equal:hover{
+    background-color: rgb(199, 17, 17)
+}
+button{
+    background-color: inherit !important;
+    border: none;
+    width: 75px !important;
+    height: 40px;
+    color: azure;
+    font-weight: 400;
+    outline: none !important;
+}
+.op-equal button{
+    background-color: inherit !important;
+    border: 0;
+    width: 75px !important;
+    height: 80px; 
+    outline: none;
+}
